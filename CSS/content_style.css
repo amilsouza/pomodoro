@@ -1,0 +1,26 @@
+div.box{
+    width:30vw;
+    margin:auto;
+
+    flex-direction: column;
+}
+div.countdown{
+    justify-content: center;
+    margin-top: 10vh;
+
+    font-size: 80px;
+}
+div.count{
+    justify-content: space-between;
+    width: 25vw;
+}
+div.values{
+    margin-top: 7rem;
+    height: 100px;
+
+    flex-flow: column;
+    justify-content: space-around;
+}
+p{
+
+}

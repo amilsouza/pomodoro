@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/background_style.css" rel="stylesheet">
+    <link href="CSS/content_style.css" rel="stylesheet">
+    <link href="CSS/botao_style.css" rel="stylesheet">   
     <title>Pomodoro</title>
 </head>
 <body>
@@ -14,18 +17,21 @@
         <div></div>
 
         <main>
+            <div class="box flex">
+                <div class="countdown flex">25:00</div>
 
-            <div>25:00</div>
+                <div class="count flex">
+                    <button class="stop">stop</button>
+                    <button class="play">play</button>
+                </div>
+                <div class="values flex">
+                    <p>Fatias feitas: <span></span></p>
+                    <p>Tomates completos: <span></span></p>
+                    <p>Quantos faltam: <span></span></p>
+                </div>
+                <button class="set "> Editar </button>
 
-            <div class="count">
-                <button class="stop">stop</button>
-                <button class="play">play</button>
             </div>
-
-            <p>Fatias Feitas: <span></span></p>
-            <p>Tomates completos: <span></span></p>
-            <p>Quantos faltam: <span></span></p>
-
         </main>
         
     </section>
