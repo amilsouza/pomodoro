@@ -7,35 +7,35 @@
     <link href="CSS/style.css" rel="stylesheet">
     <link href="CSS/background_style.css" rel="stylesheet">
     <link href="CSS/content_style.css" rel="stylesheet">
-    <link href="CSS/botao_style.css" rel="stylesheet">   
+    <link href="CSS/set-button_style.css" rel="stylesheet">   
     <title>Pomodoro</title>
 </head>
 <body>
     <div class="bluebar"></div>
     <section>
 
-        <div></div>
+        <div class="go flex"> Vamos lá!!</div>
 
         <main>
             <div class="box flex">
-                <div class="countdown flex">25:00</div>
+                <div class="flex" id="countdown"><span class="min">25</span>:<span class="seg">00</span></div>
 
                 <div class="count flex">
-                    <button class="stop">stop</button>
-                    <button class="play">play</button>
+                    <button class="stop" onclick="Stop()">stop</button>
+                    <button class="play" onclick="Play()">play</button>
                 </div>
                 <div class="values flex">
                     <p>Fatias feitas: <span></span></p>
                     <p>Tomates completos: <span></span></p>
                     <p>Quantos faltam: <span></span></p>
                 </div>
-                <button class="set "> Editar </button>
+                <button class="set"> Editar </button>
 
             </div>
         </main>
         
     </section>
         
-    <script src="JS/main.js"></script>
+    <script src="JS/countdown.js"></script>
 </body>
 </html>

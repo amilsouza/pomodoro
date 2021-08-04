@@ -4,19 +4,26 @@ div.box{
 
     flex-direction: column;
 }
-div.countdown{
+div.go{
     justify-content: center;
-    margin-top: 10vh;
+    
+    padding-top: 15px;
+}
+div#countdown{
+    justify-content: center;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
 
     font-size: 80px;
 }
 div.count{
     justify-content: space-between;
-    width: 25vw;
+  
 }
 div.values{
     margin-top: 7rem;
     height: 100px;
+    line-height: 1.5;
 
     flex-flow: column;
     justify-content: space-around;
